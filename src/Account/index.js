@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 
 
 class Account extends Component {
+  constructor(props) {
+    super(props); 
+    this.state = {
+      balance: 0
+    }
+  }
   render() {
     return (
       <div className="account">
